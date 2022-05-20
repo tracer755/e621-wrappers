@@ -1,6 +1,14 @@
 # e621-wrappers
 e621 api wrappers for a bunch of languages  
 
+#### Languages
+- [x] Python (wip)
+- [ ] Node js (planned)
+- [ ] Js (planned)
+- [ ] c# (planned)
+- [ ] java (planned)
+- [ ] c++ (probably not)
+
 ## [Python](python/README.md)
 Install here: https://pypi.org/project/e621py-wrapper/ or use:  pip install e621py-wrapper
 
