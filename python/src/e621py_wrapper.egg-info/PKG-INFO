@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: e621py-wrapper
-Version: 0.1.1
+Version: 0.1.3
 Summary: A well featured wrapper for e621.net
 Home-page: https://github.com/tracer755/e621-wrappers
 Author: Tracer755
@@ -15,13 +15,13 @@ License-File: LICENSE
 
 # E621 python wrapper
 
-Install here: https://pypi.org/project/e621-wrapper/ or use:  pip install e621-wrapper
+Install here: https://pypi.org/project/e621py-wrapper/ or use:  pip install e621py-wrapper
 
 Get started:    
 
 First import the library and create a e621 client
 ```python
-import e621_wrapper as e621
+import e621py_wrapper as e621
 client = e621.client()
 ```
   

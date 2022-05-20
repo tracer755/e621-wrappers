@@ -1,6 +1,6 @@
 import requests
 import json
-import e621_endpoints as e621end
+from .endpoints import e621_endpoints as e621end
 headers = {
     'User-Agent': 'E621 api wrapper',
 }
