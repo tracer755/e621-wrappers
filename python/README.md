@@ -1,12 +1,12 @@
 # E621 python wrapper
 
-Install here: https://pypi.org/project/e621-wrapper/ or use:  pip install e621-wrapper
+Install here: https://pypi.org/project/e621py-wrapper/ or use:  pip install e621py-wrapper
 
 Get started:    
 
 First import the library and create a e621 client
 ```python
-import e621_wrapper as e621
+import e621py_wrapper as e621
 client = e621.client()
 ```
   
