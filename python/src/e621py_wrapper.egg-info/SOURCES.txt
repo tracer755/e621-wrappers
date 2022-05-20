@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/e621py_wrapper/__init__.py
+src/e621py_wrapper/e621_endpoints.py
+src/e621py_wrapper/e621_wrapper.py
+src/e621py_wrapper.egg-info/PKG-INFO
+src/e621py_wrapper.egg-info/SOURCES.txt
+src/e621py_wrapper.egg-info/dependency_links.txt
+src/e621py_wrapper.egg-info/top_level.txt
