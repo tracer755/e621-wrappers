@@ -192,9 +192,14 @@ client.tags.aliases.search(Main tag, hide empty, status, order)
 ```
 
 Main tag this is the tag that you want find all aliases of
+
 hide empty hide all aliases that have no posts (True by default)
+
 status tag status eg: approved, active, pending, deleted, retired, processing, queued
+
 order order to sort the tags eg: status (default), created_at, updated_at, name, or tag_count
+
+
 
 Only required param is Main tag
 
