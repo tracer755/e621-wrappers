@@ -155,3 +155,53 @@ client.users.favorites(292827)
 ```
 
 This would return: https://pastebin.com/8fCqfr25
+
+
+## Tags
+
+### Search
+
+This function gets a tag and ralated info
+
+Usage  
+
+```python
+client.tags.search(tag)
+```
+
+Tag this is a string of a tag not case sensetive
+
+#### Example
+
+```python
+client.tags.search("anthro")
+```
+
+This would return: https://pastebin.com/t06QnLFa
+
+## Aliases
+
+### Search
+
+This function gets a tag and ralated info
+
+Usage  
+
+```python
+client.tags.aliases.search(Main tag, hide empty, status, order)
+```
+
+Main tag this is the tag that you want find all aliases of
+hide empty hide all aliases that have no posts (True by default)
+status tag status eg: approved, active, pending, deleted, retired, processing, queued
+order order to sort the tags eg: status (default), created_at, updated_at, name, or tag_count
+
+Only required param is Main tag
+
+#### Example
+
+```python
+client.tags.aliases.search("anthro")
+```
+
+This would return: https://pastebin.com/9PV8q5ty
