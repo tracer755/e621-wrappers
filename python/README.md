@@ -111,3 +111,47 @@ client.pools.get(20198)
 ```
 
 This would return: https://pastebin.com/8WQrBcvX
+
+## Users
+
+### Get
+
+This function gets user information based on username or an int of userid
+
+Usage  
+
+```python
+client.users.get(username)
+```
+
+This username param can be a string of a user id or an int of a user id
+
+#### Example
+
+```python
+client.pools.get("t-rexQueen")
+```
+
+if you are logged in and call your own username(Not user id!!!) the response will have more data
+
+This would return: https://pastebin.com/mK3tpJug
+
+### Favorites
+
+This function gets a users favorites (assuming they are public) based on user id
+
+Usage  
+
+```python
+client.users.favorites(id)
+```
+
+Id the id paramater of a user you can user user.get to get user id
+
+#### Example
+
+```python
+client.users.favorites(292827)
+```
+
+This would return: https://pastebin.com/8fCqfr25
