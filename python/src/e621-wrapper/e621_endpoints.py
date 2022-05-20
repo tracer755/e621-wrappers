@@ -13,7 +13,7 @@ headers = {
 class posts:
     def __init__(self, clientin):
         self.client = clientin
-    
+
     def search(self, tags = "", blacklist = "", limit = -1, page = 1, ignorepage = True):
         #prepare tags
         blacklisttags = blacklist.split(" ")
@@ -44,7 +44,7 @@ class posts:
                     posts.append(items)
             return posts
         else:
-            pg = 1
+            pg = page
             i = 0
             posts = []
             while True:
@@ -69,7 +69,7 @@ class posts:
                         if i == limit:
                             return posts
                 pg += 1
-    
+
     def get(self, id):
         if isinstance(id, list) == False:
             id = [id]
@@ -147,7 +147,7 @@ class users:
             if username == self.client.username:
                 return self.client.clientjson
         url = ""
-        url = "https://e621.net/users/" + username + ".json"
+        url = "https://e621.net/users/" + str(username) + ".json"
         response = requests.get(url, headers=headers).text
         return response
     def favorites(self, userid):
