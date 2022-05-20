@@ -10,12 +10,11 @@ First import the library and create a e621 client
 import e621_wrapper as e621
 client = e621.client()
 ```
-<br>
+<br \>
 Now lets try to login, some api calls will require logging in
 ```python
 client.login("username", "apikey")
 ```
-<br>
 
 Todo:  
 Post management  
