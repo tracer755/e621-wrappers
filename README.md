@@ -2,7 +2,7 @@
 e621 api wrappers for a bunch of languages  
 
 #### Languages
-- [x] Python (wip)
+- [x] [Python](python/README.md) (wip)
 - [ ] Node js (planned)
 - [ ] Js (planned)
 - [ ] c# (planned)
