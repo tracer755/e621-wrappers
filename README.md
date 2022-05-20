@@ -8,7 +8,7 @@ Get started:
 
 First import the library and create a e621 client
 ```python
-import e621_wrapper as e621
+import e621py_wrapper as e621
 client = e621.client()
 ```
   
