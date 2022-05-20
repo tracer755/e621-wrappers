@@ -2,7 +2,7 @@
 e621 api wrappers for a bunch of languages
 
 
-## Python
+## Python(python/README.md)
 Install here: https://pypi.org/project/e621-wrapper/
 
 Todo:
