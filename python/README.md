@@ -1,6 +1,6 @@
 # E621 python wrapper
 
-Install here: https://pypi.org/project/e621-wrapper/ or use:  pip install e621_wrapper
+Install here: https://pypi.org/project/e621py-wrapper/ or use:  pip install e621py-wrapper
 
 Get started:    
 
