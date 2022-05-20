@@ -6,6 +6,6 @@ e621 api wrappers for a bunch of languages
 Install here: https://pypi.org/project/e621-wrapper/
 
 Todo:
-  Post management
-  wiki
-  forum
+:  Post management
+:  wiki
+:  forum
