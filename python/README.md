@@ -296,3 +296,48 @@ client.util.save(3178128, "test")
 ```
 
 The file is saved to the path test/3178128.png
+
+
+## Wiki
+
+### Search
+
+This function searches for wiki pages
+
+Usage  
+
+```python
+client.wiki.search(query, wildcard)
+```
+
+query the search query for the wiki page
+
+wildcard allows the query to not be exact and be a part of a string (True by default leaving this is recomended)
+
+#### Example
+
+```python
+client.wiki.search("wickerbeast")
+```
+
+This would return: https://pastebin.com/C3j30QA6
+
+### Get
+
+This function gets a wiki page based on id
+
+Usage  
+
+```python
+client.wiki.get(id)
+```
+
+id the id of a wiki page
+
+#### Example
+
+```python
+client.wiki.get(42470)
+```
+
+This would return: https://pastebin.com/BwifkJL0
