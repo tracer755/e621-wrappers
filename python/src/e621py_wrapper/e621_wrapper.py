@@ -1,6 +1,6 @@
 import requests
 import json
-from . import e621_endpoints as e621end
+import e621_endpoints as e621end
 headers = {
     'User-Agent': 'E621 api wrapper',
 }
@@ -18,6 +18,7 @@ class client:
         self.tags = e621end.tags(self)
         self.notes = e621end.notes(self)
         self.util = e621end.util(self)
+        self.wiki = e621end.wiki(self)
     
     def login(self, username, apikey):
         #try user login

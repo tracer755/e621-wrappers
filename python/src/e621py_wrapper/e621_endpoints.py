@@ -210,17 +210,50 @@ class notes:
         except:
             return response
 
+class wiki:
+    def __init__(self, clientin):
+        self.client = clientin
+
+    def search(self, query, wildcard=True):
+        if wildcard == True:
+            query = "*" + query + "*"
+
+        url = "https://e621.net/wiki_pages.json?search[title]=" + query
+
+        response = requests.get(url, headers=headers).json()
+
+        if len(response) == 0:
+            return "no wiki"
+
+        return response
+
+    def get(self, id):
+        url = "https://e621.net/wiki_pages.json?search[id]=" + str(id)
+        response = ""
+        try:
+            response = requests.get(url, headers=headers).json()
+        except:
+            return "no wiki page"
+        
+        if len(response) == 0:
+            return "no wiki page"
+            
+        return response
+
 class util:
     def __init__(self, clientin):
         self.client = clientin
 
-    def save(self, post_id, filepath = "././"):
+    def save(self, post_id, filepath = "./"):
         post = self.client.posts.get(post_id)
         response = requests.get(post[0]["file"]["url"], headers=headers, stream=True)
 
         if filepath != "":
             if filepath.endswith('/') == False:
                 filepath += "/"
+        if filepath != "":
+            if os.path.isdir(filepath) == False:
+                os.mkdir(filepath)
         if response.status_code == 200:
             filename = str(post[0]["id"]) + "." + post[0]["file"]["url"].split(".")[len(post[0]["file"]["url"].split(".")) - 1]
             response.raw.decode_content = True
@@ -232,3 +265,4 @@ class util:
                     else: 
                         os.remove(filepath + filename)
                         return("md5 checksum fail please try again")
+
