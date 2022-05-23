@@ -32,5 +32,4 @@ print(client.posts.search("wickerbeast", "rating:e", 3))
 
 Todo:  
 Post management  
-wiki  
 forum  
