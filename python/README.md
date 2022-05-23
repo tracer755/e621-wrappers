@@ -210,3 +210,33 @@ client.tags.aliases.search("anthro")
 ```
 
 This would return: https://pastebin.com/9PV8q5ty
+
+## Notes
+
+### Search
+
+This function gets a note based on query and note content
+
+Usage  
+
+```python
+client.notes.search(query, wildcard. limit)
+```
+
+Query the string query of the request
+
+Wildcard allows the query to not be the exact text of the full note (True by default)
+
+limit limits the number of notes returned (default 100)
+
+
+
+Only required param is query
+
+#### Example
+
+```python
+client.notes.search("owo")
+```
+
+This would return: https://pastebin.com/WC0DSsuq
