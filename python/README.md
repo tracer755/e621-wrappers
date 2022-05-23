@@ -240,3 +240,59 @@ client.notes.search("owo")
 ```
 
 This would return: https://pastebin.com/WC0DSsuq
+
+
+### Get
+
+This function gets notes based on a posts id
+
+Usage  
+
+```python
+client.notes.get(id, limit)
+```
+
+id is an int of a posts id
+
+limit the nuber of notes returned 
+
+#### Example
+
+```python
+client.notes.get(2983392)
+```
+
+This would return: https://pastebin.com/qg9FqBnX
+
+## Utils
+
+### Save
+
+This function gets a post and downloads the file
+
+Usage  
+
+```python
+client.util.save(post_id, filepath)
+```
+
+post_id the id of the post
+
+the filepath to save the file to (if left blank the file will save the the current directory)
+
+
+the downloader checks the md5 check sum provided by e621 returns md5 checksum fail please try again if the check sum fails
+
+#### Example
+
+```python
+client.util.save(3178128)
+```
+
+This saves the post to the file path 3178128.png
+
+```python
+client.util.save(3178128, "test")
+```
+
+The file is saved to the path test/3178128.png
