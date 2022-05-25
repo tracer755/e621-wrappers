@@ -2,7 +2,7 @@
 e621 api wrappers for a bunch of languages  
 
 #### Languages
-- [x] [Python](python) (wip)
+- [x] [Python](python) (wip)[![Downloads](https://static.pepy.tech/personalized-badge/e621py-wrapper?period=month&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/e621py-wrapper)
 - [ ] Node js (planned)
 - [ ] Js (planned)
 - [ ] c# (planned)
