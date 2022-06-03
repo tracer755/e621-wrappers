@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: e621py-wrapper
-Version: 0.1.5
+Version: 0.1.6
 Summary: A well featured wrapper for e621.net
 Home-page: https://github.com/tracer755/e621-wrappers
 Author: Tracer755
@@ -14,6 +14,7 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 # E621 python wrapper
+![Downloads](https://img.shields.io/pypi/dm/e621py-wrapper?color=orange)
 
 Install here: https://pypi.org/project/e621py-wrapper/ or use:  pip install e621py-wrapper
 

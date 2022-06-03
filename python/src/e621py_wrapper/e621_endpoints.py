@@ -1,6 +1,4 @@
 from distutils.command.upload import upload
-from email import header
-from pkgutil import iter_modules
 from urllib import response
 import requests
 import json
@@ -228,7 +226,7 @@ class wiki:
         return response
 
     def get(self, id):
-        url = "https://e621.net/wiki_pages.json?search[id]=" + str(id)
+        url = "https://e621.net/wiki_pages/" + str(id) + ".json"
         response = ""
         try:
             response = requests.get(url, headers=headers).json()
@@ -237,8 +235,47 @@ class wiki:
         
         if len(response) == 0:
             return "no wiki page"
-            
+
         return response
+
+class forum:
+    def __init__(self, clientin):
+        self.catagories = ["General", "Tag Alias and Implication Suggestions", "Art Talk", "", "Off Topic", "", "", "", "e621 Tools and Applications", "Tag/Wiki Projects and Questions", "Site Bug Reports & Feature Requests"]
+        self.client = clientin
+    def topics(self, page = 1, catagory = None):
+        url = "https://e621.net/forum_topics.json"
+        url += "?page=" + str(page)
+        if catagory != None and catagory != "":
+            tmp = "&search[category_id]=" + str(self.catagories.index(catagory) + 1)
+            url += tmp
+        response = requests.get(url, headers=headers)
+        return response.text
+    def posts(self, title = None, body = None, author = None, catagory = None, page = 1):
+        url = "https://e621.net/forum_posts.json"
+        tmp = "?search[topic_title_matches]="
+        if title != None and title != "":
+            tmp += title
+        url += tmp
+        tmp = "&search[body_matches]="
+        if body != None and body != "":
+            tmp += body
+        url += tmp
+        tmp = "&search[creator_name]="
+        if author != None and author != "":
+            tmp += author
+        url += tmp
+        if catagory != None and catagory != "":
+            tmp = "&search[topic_category_id]=" + str(self.catagories.index(catagory) + 1)
+            url += tmp
+        print(url)
+
+        url += "&page=" + str(page)
+
+        response = requests.get(url, headers=headers)
+        
+        return(response.text)
+        #https://e621.net/forum_posts.json?commit=Search&search[body_matches]=test&search[creator_name]=tset2test2
+
 
 class util:
     def __init__(self, clientin):

@@ -19,6 +19,7 @@ class client:
         self.notes = e621end.notes(self)
         self.util = e621end.util(self)
         self.wiki = e621end.wiki(self)
+        self.forum = e621end.forum(self)
     
     def login(self, username, apikey):
         #try user login
