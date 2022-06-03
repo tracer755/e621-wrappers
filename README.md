@@ -3,10 +3,10 @@ e621 api wrappers for a bunch of languages
 
 #### Languages
 - [x] [Python](python)
-- [ ] Node js (planned)
+- [ ] Node js (started)
 - [ ] Js (planned)
 - [ ] c# (planned)
-- [ ] java (planned)
+- [ ] java (started)
 - [ ] c++ (probably not)
 
 
