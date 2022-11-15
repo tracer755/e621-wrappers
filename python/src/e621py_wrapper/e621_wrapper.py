@@ -1,6 +1,7 @@
 import requests
 import json
-import e621_endpoints as e621end
+#import e621_endpoints as e621_endpoints
+from . import e621_endpoints
 headers = {
     'User-Agent': 'E621 api wrapper',
 }
@@ -12,14 +13,14 @@ class client:
         self.clientjson = ""
         self.id = ""
         #add all endpoints
-        self.posts = e621end.posts(self)
-        self.pools = e621end.pools(self)
-        self.users = e621end.users(self)
-        self.tags = e621end.tags(self)
-        self.notes = e621end.notes(self)
-        self.util = e621end.util(self)
-        self.wiki = e621end.wiki(self)
-        self.forum = e621end.forum(self)
+        self.posts = e621_endpoints.posts(self)
+        self.pools = e621_endpoints.pools(self)
+        self.users = e621_endpoints.users(self)
+        self.tags = e621_endpoints.tags(self)
+        self.notes = e621_endpoints.notes(self)
+        self.util = e621_endpoints.util(self)
+        self.wiki = e621_endpoints.wiki(self)
+        self.forum = e621_endpoints.forum(self)
     
     def login(self, username, apikey):
         #try user login

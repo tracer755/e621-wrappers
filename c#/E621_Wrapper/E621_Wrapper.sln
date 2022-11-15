@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E621_Wrapper", "E621_Wrapper.csproj", "{B322E5E7-EC65-4234-99CF-2DA79E6835E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e621_api_test", "..\e621_api_test\e621_api_test.csproj", "{489E928B-9FAA-48F5-8FE5-37569ECCF55C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B322E5E7-EC65-4234-99CF-2DA79E6835E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B322E5E7-EC65-4234-99CF-2DA79E6835E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B322E5E7-EC65-4234-99CF-2DA79E6835E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B322E5E7-EC65-4234-99CF-2DA79E6835E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{489E928B-9FAA-48F5-8FE5-37569ECCF55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489E928B-9FAA-48F5-8FE5-37569ECCF55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489E928B-9FAA-48F5-8FE5-37569ECCF55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489E928B-9FAA-48F5-8FE5-37569ECCF55C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9EDAACBE-CAA8-4234-9E5A-F3E0B28D247C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "e621_api_test/1.0.0": {
+        "dependencies": {
+          "E621_Wrapper": "1.0.0"
+        },
+        "runtime": {
+          "e621_api_test.dll": {}
+        }
+      },
+      "E621_Wrapper/1.0.0": {
+        "runtime": {
+          "E621_Wrapper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "e621_api_test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "E621_Wrapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

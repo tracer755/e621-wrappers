@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "E621_Wrapper/1.0.0": {
+        "runtime": {
+          "E621_Wrapper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "E621_Wrapper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

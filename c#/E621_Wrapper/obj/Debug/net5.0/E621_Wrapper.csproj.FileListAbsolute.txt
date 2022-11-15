@@ -1,0 +1,11 @@
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\bin\Debug\net5.0\E621_Wrapper.deps.json
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\bin\Debug\net5.0\E621_Wrapper.dll
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\bin\Debug\net5.0\ref\E621_Wrapper.dll
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\bin\Debug\net5.0\E621_Wrapper.pdb
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\obj\Debug\net5.0\E621_Wrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\obj\Debug\net5.0\E621_Wrapper.AssemblyInfoInputs.cache
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\obj\Debug\net5.0\E621_Wrapper.AssemblyInfo.cs
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\obj\Debug\net5.0\E621_Wrapper.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\obj\Debug\net5.0\E621_Wrapper.dll
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\obj\Debug\net5.0\ref\E621_Wrapper.dll
+C:\Users\Jason\Documents\GitHub\e621-wrappers\c#\E621_Wrapper\obj\Debug\net5.0\E621_Wrapper.pdb
