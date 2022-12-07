@@ -2,7 +2,6 @@
 e621 api wrappers for a bunch of languages  
 
 my dumbass made this to get wallpapers lol
-
 (Programming making a 1 day job a 2 month job lmao)
 
 #### Languages
