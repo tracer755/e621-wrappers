@@ -313,7 +313,7 @@ client.wiki.search(query, wildcard)
 
 query the search query for the wiki page
 
-wildcard allows the query to not be exact and be a part of a string (True by default leaving this is recomended)
+wildcard allows the query to not be exact and be a part of a string (True by default, leaving this alone is recomended for better results)
 
 #### Example
 
