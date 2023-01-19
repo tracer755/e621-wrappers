@@ -1,7 +1,7 @@
 # e621-wrappers
 e621 api wrappers for a bunch of languages  
 
-my dumbass made this to get sfw wallpapers lol. Programming, making a 1 day job a 2 month job lmao
+My dumbass made this to get sfw wallpapers lol. Programming, making a 1 day job a 2 month job lmao
 
 #### Languages
 - [x] [Python](python)
