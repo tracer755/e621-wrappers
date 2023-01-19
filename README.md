@@ -25,10 +25,15 @@ import e621py_wrapper as e621
 client = e621.client()
 ```
   
+<br />
+  
 Now lets login, some api calls will require logging in  
 ```python
 client.login("username", "apikey")
 ```
+
+<br />
+
 Now lets try getting 3 posts with the tag wickerbeast and blacklisting rating:e
 ```python
 print(client.posts.search("wickerbeast", "rating:e", 3))
