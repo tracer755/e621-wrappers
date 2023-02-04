@@ -1,5 +1,5 @@
 # E621 python wrapper
-[![Downloads](https://static.pepy.tech/personalized-badge/e621py-wrapper?period=month&units=international_system&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/e621py-wrapper)
+[![Downloads](https://static.pepy.tech/personalized-badge/e621py-wrapper?period=total&units=none&left_color=black&right_color=orange&left_text=Downloads)](https://pepy.tech/project/e621py-wrapper)
 
 Install here: https://pypi.org/project/e621py-wrapper/ or use:  pip install e621py-wrapper
 
