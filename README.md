@@ -1,13 +1,13 @@
-# e621-wrappers
-e621 api wrappers for a bunch of languages  
+# E621 Wrappers
+E621 Api wrappers for a bunch of languages  
 
-My dumbass made this to get sfw wallpapers lol. "Programming, making a 1 day job a 2 month job lmao"
+These are not official wrappers as such things might be a bit broken
 
 #### Languages
 - [x] [Python](python)
 - [ ] Node js (started)
 - [ ] Js (planned)
-- [ ] c# (planned)
+- [ ] c# (started)
 - [ ] java (started)
 - [ ] c++ (probably not)
 
